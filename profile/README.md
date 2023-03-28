@@ -18,6 +18,7 @@ Still unsure where to start your contributor journey, reach to our Open Tech Col
 
 ## :bookmark_tabs: Useful resources 
 Join the [HOT Tech and Innovation Working Group](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/Working_groups/TechandInnovation)- a welcoming and inclusive open space to connect, contribute, collaborate, innovate and share ideas for geospatial tech for humanitarian purposes! Meetings are held on the second Tuesday of the month at 10:00 and 18:00UTC!
-Join the [HOTOSM Slack workspace](https://slack.hotosm.org/). The main channel for any tech discussions is #geospatial-tech-and-innovation. We also hve
+
+Join the [HOTOSM Slack workspace](https://slack.hotosm.org/). The main channel for any tech discussions is #geospatial-tech-and-innovation. 
 
 
