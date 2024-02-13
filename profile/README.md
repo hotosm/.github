@@ -13,8 +13,9 @@ As with any open source community, there are many projects and tools that we are
 2. Check the README file - you will see a reference to a product roadmap for the year that will give you an indication of the work we are doing
 3. Read the contributing guidelines for each repo - we would advise starting with any issues labelled *Good First Issue*
 
-Still unsure where to start your contributor journey, reach to our Open Tech Collective Facilitator- [Petya](https://github.com/petya-kangalova) 
+Please also check the [HOT Tech Docs](https://docs.hotosm.org/). It is primarily intended for a software development audience.
 
+Still unsure where to start your contributor journey, reach to our Open Tech Collective Facilitator- [Petya](https://github.com/petya-kangalova) 
 
 ## :bookmark_tabs: Useful resources 
 Join the [HOT Tech and Innovation Working Group](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/Working_groups/TechandInnovation)- a welcoming and inclusive open space to connect, contribute, collaborate, innovate and share ideas for geospatial tech for humanitarian purposes! Meetings are held on the second Tuesday of the month at 10:00 and 18:00UTC!
