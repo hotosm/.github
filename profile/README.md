@@ -72,7 +72,7 @@ However, we do have a few projects that are worth highlighting as in need of ass
 > These modules are primarily aimed at backend developers, skilled using Python for data extraction,
 > and analysis, in addition to writing installable software packages.
 
-# DevOps: Kubernetes
+### DevOps: Kubernetes
 
 - We have recently undergone a transition to [run our tools via Kubernetes](https://github.com/hotosm/k8s-infra).
 - While we are able to maintain the day-to-day operations of the cluster, we really require support on
