@@ -51,7 +51,8 @@ However, we do have a few projects that are worth highlighting as in need of ass
   - A dedicated XLSForm builder interface, with drag-and-drop components, instead of Excel editing.
 - The full repository and issues to work on can be found [here](https://github.com/hotosm/xlsform-builder)
 
-> [!IMPORTANT] this project is primarily aimed at frontend developers, skilled using TypeScript to
+> [!IMPORTANT]
+> This project is primarily aimed at frontend developers, skilled using TypeScript to
 > create good user interfaces and experiences.
 
 ### Backend Modules
@@ -67,7 +68,8 @@ However, we do have a few projects that are worth highlighting as in need of ass
   - Like SQL and PostGIS algorithms? Help add additional splitting criteria and optimizations to our
     [Field Splitting module](https://hotosm.github.io/fmtm-splitter)! 
 
-> [!IMPORTANT] these modules are primarily aimed at backend developers, skilled using Python for data extraction,
+> [!IMPORTANT]
+> These modules are primarily aimed at backend developers, skilled using Python for data extraction,
 > and analysis, in addition to writing installable software packages.
 
 # DevOps: Kubernetes
