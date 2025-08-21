@@ -40,6 +40,7 @@ Other relevant tech Slack channels you might be interested in joining:
 - #field-mapping-tasking-manager
 - #export-tool
 - #machine-learning
+- #chatmap
 
 ## 🤲 Current Volunteer Projects
 
@@ -82,3 +83,14 @@ However, we do have a few projects that are worth highlighting as in need of ass
 - While we are able to maintain the day-to-day operations of the cluster, we really require support on
   **packaging our tools** using Helm charts and other means.
 - If you have experience writing and maintaining installable packages for Kubernetes, please reach out!
+
+### Translations: ChatMap
+
+- We're asking asking for your help to have [ChatMap](https://chatmap.hotosm.org) (the app for converting chats to maps) in more languages!
+- Currently available in English, Spanish, Portuguese and German. 
+- These are the texts that need to be translated from English: https://github.com/hotosm/chatmap/blob/master/src/int/en.json
+- Other translations can be found here: https://github.com/hotosm/chatmap/tree/master/src/int
+- You can help by posting your translations in the #chatmap Slack channel or by creating a PR in GitHub if you’re more tech-savvy.
+
+> [!IMPORTANT]
+The ChatMappers will be eternally grateful! 
