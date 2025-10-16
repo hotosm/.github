@@ -6,7 +6,7 @@ We are dedicated to humanitarian action and community development through open m
 
 ## 🌞 About HOT Tech and Innovation
 
-We aim to create and nurture *just* tech to amplify connections between **humanitarian** needs and open map data. We have a small core tech team, but we rely on YOU for contributions and collaborations to make all this magic happen! 
+We aim to create and nurture *fair* and *just* tech to amplify connections between **humanitarian** needs and open map data. We have a small core tech team, but we rely on YOU for contributions and collaborations to make all this magic happen! 
 
 ## 🌈 How to Contribute
 
