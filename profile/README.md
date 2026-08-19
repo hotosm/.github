@@ -44,43 +44,62 @@ Other relevant tech Slack channels you might be interested in joining:
 
 ## 🤲 Current Volunteer Projects
 
-As mentioned above, it's possible to assist on any of our tools - just comment on an issue to get started!
+You can help out on any of our tools, just comment on an issue to get started!
 
-However, we do have a few projects that are worth highlighting as in need of assistance by volunteer developers right now:
+That said, here are the projects where we could really use a hand right now.
 
-### Frontend: XLSForm Builder
+### XLSForm Builder (TypeScript)
 
-- Full details can be found advertised [here](https://www.hotosm.org/volunteer-opportunities/tech-volunteer-opportunities).
-- This project has two goals, and primarily uses **TypeScript** for:
-  - A small community-driven web page for users to share and access existing XLSForms used for field mapping projects.
-  - A dedicated XLSForm builder interface, with drag-and-drop components, instead of Excel editing.
-- The full repository and issues to work on can be found [here](https://github.com/hotosm/xlsform-builder)
+We use XLSForms for all of our field mapping. Editing them in Excel is painful, so we want a better way.
 
-> [!IMPORTANT]
-> This project is primarily aimed at frontend developers, skilled using TypeScript to
-> create good user interfaces and experiences.
+- The examples showcase and uploader are done, meaning users can share and browse XLSForms already used in real projects.
+- Next up is the big one: an XLSForm editor in the browser, with drag and drop components, built around [getodk/web-forms](https://github.com/getodk/web-forms).
+- Repo and issues: [xlsform-builder](https://github.com/hotosm/xlsform-builder)
 
-### Backend Modules
+Best suited to frontend devs who enjoy building interfaces people actually like using.
 
-- We have various backend **Python** modules listed [here](https://docs.hotosm.org/modules/backend) that are
-  used throughout our tools.
-- These modules are primarily developed and maintained by volunteers, and we could really use your help keeping them
-  up to date! See the issues on each repository to know what bugs or features need to be implemented.
-- Some key projects in need to assistance:
-  - Like maths & deep Python coding? Help improve our [drone flightplan](https://github.com/hotosm/drone-tm/tree/develop/src/backend/packages/drone-flightplan)
-    generation module, perhaps adding support for new drones!
-  - Like QGIS and refining user experience? Help craft a better workflow with our [QGIS Field Mapping](https://github.com/hotosm/qgis-field-mapper) plugin!
-  - Like SQL and PostGIS algorithms? Help add additional splitting criteria and optimizations to our
-    [Field Splitting module](https://hotosm.github.io/fmtm-splitter)! 
+### OpenAerialMap (Python / TypeScript)
 
-> [!IMPORTANT]
-> These modules are primarily aimed at backend developers, skilled using Python for data extraction,
-> and analysis, in addition to writing installable software packages.
+[OpenAerialMap](https://openaerialmap.org) hosts openly licensed drone and satellite imagery for anyone to use. We are rebuilding it around [STAC](https://stacspec.org).
 
-### DevOps: Kubernetes
+- Backend: STAC metadata extensions, catalog ingestion, the imagery upload pipeline.
+- Frontend: the uploader, plus map based search and browsing of the catalog.
+- Also wanted: documentation, UI / UX design, and testers.
+- Repo: [openaerialmap](https://github.com/hotosm/openaerialmap), with [docs here](https://docs.imagery.hotosm.org).
 
-- We have recently undergone a transition to [run our tools via Kubernetes](https://github.com/hotosm/k8s-infra).
-- While we are able to maintain the day-to-day operations of the cluster, we really require support on
-  **packaging our tools** using Helm charts and other means.
-- If you have experience writing and maintaining installable packages for Kubernetes, please reach out!
+A good fit if you like cloud native geospatial (COG, PMTiles, STAC), or want to work across the whole stack.
 
+### Field-TM (Python / TypeScript)
+
+The [Field Tasking Manager](https://github.com/hotosm/field-tm) coordinates field mapping campaigns, tagging map features with information verified on the ground via ODK.
+
+- It's used in the field today, but doesn't get much dedicated development time from us, so help here goes a long way.
+- Backend is Python (Litestar), frontend is HTMX and TypeScript.
+- Test coverage and translations are always welcome.
+- Not a developer? Using the tool and writing up clear bug reports is just as useful to us.
+- Start with the issues labelled [good first issue](https://github.com/hotosm/field-tm/labels/good%20first%20issue).
+
+### AI Detection Models (Python)
+
+We want AI assisted feature detection to take some of the grunt work out of mapping, building on research done with UC Berkeley in [osm-tagger](https://github.com/hotosm/osm-tagger).
+
+- Training and evaluating detection models.
+- Preparing and cleaning training datasets.
+- Getting predictions into a workflow where mappers can review them, before anything reaches OSM.
+
+Aimed at data scientists and ML engineers, ideally ones who care about keeping a human in the loop.
+
+### QGIS OSM Conflator (Python)
+
+- [qgis-osm-conflator](https://github.com/hotosm/qgis-osm-conflator): merge an external dataset into existing OpenStreetMap data, accepting or rejecting each change as you go. This is very early stage and needs a lot of work to get off the ground, so there is plenty of room to shape it.
+If you know PyQGIS, or enjoy conflation and data quality problems, contact the team to get started.
+
+### Backend Modules (Python)
+
+We maintain a set of small Python modules used across our tools, listed [here](https://docs.hotosm.org/modules/backend). They are mostly volunteer maintained and could do with some love:
+
+- [geojson-aoi-parser](https://github.com/hotosm/geojson-aoi-parser): parse and normalise an area of interest using PostGIS. Used anywhere we accept a user drawn area.
+- [drone-flightplan](https://github.com/hotosm/drone-tm/tree/develop/src/backend/packages/drone-flightplan): generate drone flight plans. Good if you like maths, and there are always new drones to support.
+- [area-splitter](https://github.com/hotosm/field-tm/tree/dev/src/backend/packages/area-splitter): split a mapping area into tasks using SQL and PostGIS. More splitting criteria and optimisations needed.
+
+Take a look at the issues on each repo to see what needs doing.
