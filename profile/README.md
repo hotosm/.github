@@ -142,8 +142,7 @@ Mostly monorepos (backend + frontend + docs).
 ### Glue Between Tools
 
 - [login](https://github.com/hotosm/login): shared auth for all tools (login.hotosm.org).
-- [ui](https://github.com/hotosm/ui): shared web components with HOT theming.
-- [ui-design](https://github.com/hotosm/ui-design): design system, assets, and CSS.
+- [ui](https://github.com/hotosm/ui) & [ui-design](https://github.com/hotosm/ui-design): shared web components with HOT theming, with a design system, assets, and CSS.
 - [gh-workflows](https://github.com/hotosm/gh-workflows): reusable GitHub workflows (images, tests, docs).
 - [justfiles](https://github.com/hotosm/justfiles): shared CI/CD scripts.
 
