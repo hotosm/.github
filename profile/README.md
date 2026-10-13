@@ -125,7 +125,7 @@ Mostly monorepos (backend + frontend + docs).
 
 ### Additional Tools
 
-- [umap](https://github.com/hotosm/umap): we don't develop this ourselves, but use a forked branded version of upstream https://github.com/umap-project/umap.
+- [umap](https://github.com/hotosm/umap): we don't develop uMap ourselves, but deploy a custom branded and modified version of https://github.com/umap-project/umap.
 - [ScaleODM](https://github.com/hotosm/ScaleODM): Kubernetes autoscaling for OpenDroneMap. Used by DroneTM for processing.
 - [xlsform-builder](https://github.com/hotosm/xlsform-builder): share and edit community XLSForms.
 - [humanitarian-map-style](https://github.com/hotosm/humanitarian-map-style): vector tile rebuild of the Humanitarian OSM map style.
