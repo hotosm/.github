@@ -48,6 +48,15 @@ You can help out on any of our tools, just comment on an issue to get started!
 
 That said, here are the projects where we could really use a hand right now.
 
+### Humanitarian Map Style
+
+- OpenStreetMap has many 'styles' available, to help prioritize what map features should be more prominent for users.
+- Historically, this required rendering raster tiles in advance, based on a map style.
+- Excellent work was done by the team for https://github.com/hotosm/HDM-CartoCSS, used to generate raster tiles.
+- Going forward, OSM is using Vector tiles as a new standard (vector tiles simply contain the data, but no styling).
+- It's now possible to create a custom vector tile style, based on the HDM-CartoCSS work, for which we would really value a volunteer dedicating some time to 🙏
+- The repo and start of the work can be found here: https://github.com/hotosm/humanitarian-map-style
+
 ### XLSForm Builder (TypeScript)
 
 We use XLSForms for all of our field mapping. Editing them in Excel is painful, so we want a better way.
