@@ -103,3 +103,95 @@ We maintain a set of small Python modules used across our tools, listed [here](h
 - [area-splitter](https://github.com/hotosm/field-tm/tree/dev/src/backend/packages/area-splitter): split a mapping area into tasks using SQL and PostGIS. More splitting criteria and optimisations needed.
 
 Take a look at the issues on each repo to see what needs doing.
+
+## Repository Summary
+
+We have a lot of repos. Below are the ones with activity in the past year
+(as of October 2026). Anything not listed is likely stale or archived.
+
+### Core Tools
+
+Mostly monorepos (backend + frontend + docs).
+
+- [tasking-manager](https://github.com/hotosm/tasking-manager): coordinate remote mapping of OSM.
+- [field-tm](https://github.com/hotosm/field-tm): coordinate field mapping via ODK / QField.
+- [drone-tm](https://github.com/hotosm/drone-tm): community drone imagery collection and flight planning.
+- [openaerialmap](https://github.com/hotosm/openaerialmap): open imagery catalog, being rebuilt on STAC.
+- [fAIr](https://github.com/hotosm/fAIr) & [fAIr-models](https://github.com/hotosm/fAIr-models): AI assisted mapping, train models and predict map features.
+- [raw-data-api](https://github.com/hotosm/raw-data-api): fast OSM data extracts via API.
+- [osm-export-tool](https://github.com/hotosm/osm-export-tool): web UI for custom OSM exports.
+- [chatmap](https://github.com/hotosm/chatmap): field mapping via WhatsApp, Telegram, Signal.
+- [portal](https://github.com/hotosm/portal): central workspace across all HOT tools.
+
+### Additional Tools
+
+- [umap](https://github.com/hotosm/umap): we don't develop this ourselves, but use a forked branded version of upstream https://github.com/umap-project/umap.
+- [ScaleODM](https://github.com/hotosm/ScaleODM): Kubernetes autoscaling for OpenDroneMap. Used by DroneTM for processing.
+- [xlsform-builder](https://github.com/hotosm/xlsform-builder): share and edit community XLSForms.
+- [humanitarian-map-style](https://github.com/hotosm/humanitarian-map-style): vector tile rebuild of the Humanitarian OSM map style.
+
+### Glue Between Tools
+
+- [login](https://github.com/hotosm/login): shared auth for all tools (login.hotosm.org).
+- [ui](https://github.com/hotosm/ui): shared web components with HOT theming.
+- [ui-design](https://github.com/hotosm/ui-design): design system, assets, and CSS.
+- [gh-workflows](https://github.com/hotosm/gh-workflows): reusable GitHub workflows (images, tests, docs).
+- [justfiles](https://github.com/hotosm/justfiles): shared CI/CD scripts.
+
+### Python Modules
+
+- [osm-login-python](https://github.com/hotosm/osm-login-python): OSM OAuth 2.0 login.
+- [raw-data-api-py](https://github.com/hotosm/raw-data-api-py): client for raw-data-api.
+- [geojson-aoi-parser](https://github.com/hotosm/geojson-aoi-parser): parse and normalise AOIs with PostGIS.
+- [pg-nearest-city](https://github.com/hotosm/pg-nearest-city): reverse geocode to nearest city.
+- [osm-export-tool-python](https://github.com/hotosm/osm-export-tool-python): CLI + library for OSM exports.
+- [central-webhook](https://github.com/hotosm/central-webhook): webhooks for ODK Central submissions (Go).
+
+### AI / ML
+
+- [fAIr-utilities](https://github.com/hotosm/fAIr-utilities): training utilities for fAIr.
+- [fairpredictor](https://github.com/hotosm/fairpredictor): standalone model predictions.
+- [osm-tagger](https://github.com/hotosm/osm-tagger): generate OSM tags from text and images.
+- [dda](https://github.com/hotosm/dda): building damage assessment from satellite imagery.
+- [tm-oam-ds-builder](https://github.com/hotosm/tm-oam-ds-builder): training datasets from TM + OAM.
+- [HOTOSM-3D-TT](https://github.com/hotosm/HOTOSM-3D-TT): 3D point cloud building segmentation and heights.
+
+### Data & Analysis
+
+- [osm-country-exports](https://github.com/hotosm/osm-country-exports): country-scale OSM exports to HDX.
+- [tm-extractor](https://github.com/hotosm/tm-extractor): trigger data extracts for TM projects.
+- [osmdc](https://github.com/hotosm/osmdc): OSM completeness checker against Overture.
+- [mapswipe-results-analyzer](https://github.com/hotosm/mapswipe-results-analyzer): view and export MapSwipe results.
+- [hot2hdx-status](https://github.com/hotosm/hot2hdx-status): HDX dataset status dashboard.
+- [freetown-uhi](https://github.com/hotosm/freetown-uhi): Freetown urban heat drone processing scripts.
+
+### QGIS / QField
+
+- [qgis-osm-conflator](https://github.com/hotosm/qgis-osm-conflator): merge external data into OSM (early stage).
+- [qgis-pmtiles](https://github.com/hotosm/qgis-pmtiles): generate PMTiles from QGIS.
+- [qfield-next-theme-plugin](https://github.com/hotosm/qfield-next-theme-plugin): cycle map themes in QField.
+- [qfield-simplified-ui-plugin](https://github.com/hotosm/qfield-simplified-ui-plugin): simplified QField UI.
+
+### Infrastructure & Ops
+
+- [k8s-infra](https://github.com/hotosm/k8s-infra): Kubernetes cluster IaC (OpenTofu) and config.
+- [windmill-scripts](https://github.com/hotosm/windmill-scripts): scheduled / automation scripts for Windmill.
+- [Slack-HOTOSM-GDAC](https://github.com/hotosm/Slack-HOTOSM-GDAC): GDACS disaster alerts to Slack.
+
+### Docs, Websites & Community
+
+- [docs](https://github.com/hotosm/docs): tech docs index (docs.hotosm.org).
+- [website](https://github.com/hotosm/website): hotosm.org (Wagtail CMS).
+- [roadmap](https://github.com/hotosm/roadmap): public roadmap across all tools.
+- [requests](https://github.com/hotosm/requests): triage of user support requests.
+- [learnosm](https://github.com/hotosm/learnosm): LearnOSM.org training content.
+- [toolbox](https://github.com/hotosm/toolbox): mapping project docs and training.
+
+### Forks We Contribute To
+
+- [QFieldCloud](https://github.com/hotosm/QFieldCloud), [qfieldcloud-helm-chart](https://github.com/hotosm/qfieldcloud-helm-chart), [qfieldcloud-sdk-python](https://github.com/hotosm/qfieldcloud-sdk-python): QField sync server, deployment, SDK.
+- [odkcentral](https://github.com/hotosm/odkcentral), [web-forms](https://github.com/hotosm/web-forms), [odkdocs](https://github.com/hotosm/odkdocs): ODK server, web forms, docs.
+- [oex](https://github.com/hotosm/oex): OSM / Overture country exports (used by osm-country-exports).
+- [iD](https://github.com/hotosm/iD): OSM web editor.
+- [osm-sandbox-dashboard](https://github.com/hotosm/osm-sandbox-dashboard): helm charts for OSM Sandbox dashboard.
+- [zenml](https://github.com/hotosm/zenml): ML pipeline platform.
